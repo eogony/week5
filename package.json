@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">= 20"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/eogony/week5.git"
@@ -16,5 +19,8 @@
     "api"
   ],
   "author": "Elizabeth",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
